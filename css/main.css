@@ -16,3 +16,56 @@ h1 {
 h2 {
   font-size: 1.5em;
 }
+
+/*** SMALL BREAKPOINT (phone/smaller than tablet, per class) ***/
+@media (max-width: 767px) {
+
+  h1 {
+    color: #7b7d70;
+  }
+
+  h2 {
+    color: #4eafb8;
+  }
+
+  p {
+    color: #ff8641;
+  }
+
+}
+
+/*** MEDIUM BREAKPOINT (tablet/768px, per class) ***/
+
+@media (min-width: 768px) {
+
+  h1 {
+    color: #02cbd2;
+  }
+
+  h2 {
+    color: #fcc02a;
+  }
+
+  p {
+    color: #7b8f8e;
+  }
+  
+}
+
+/*** LARGE BREAKPOINT (monitor/1200px, per class) ***/
+
+@media (min-width: 1200px) {
+
+  h1 {
+    color: #6e4b61;
+  }
+
+  h2 {
+    color: #cabd61;
+  }
+
+  p {
+    color: #c19e74;
+  }
+  
+}
